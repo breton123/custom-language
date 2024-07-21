@@ -1,0 +1,65 @@
+head:
+     title = POW Tracker - Accounts
+     script:
+          test.js
+     link:
+          stylesheet
+          test.css
+     meta:
+          charset=UTF-8
+          name=viewport
+          content:
+               width=device-width
+               initial-scale=1.0
+
+body:
+     class=dark
+     div:
+          class=sidebar
+          a:
+               href=#
+               class=logo
+               i:
+                    class=bx bx-code-alt
+               div:
+                    class=logo-name
+                    span:
+                         POW
+                    text=Tracker
+          list:
+               class=side-menu
+               item:
+                    class=active
+                    a:
+                         href=#
+                         i:
+                              class=bx bxs-dashboard
+                         text=Accounts
+                    item:
+                    class=active
+                    a:
+                         href=#
+                         i:
+                              class=bx bxs-dashboard
+                         text=Tracker
+     div:
+          class=content
+          nav:
+               i:
+                    class=bx bx-menu
+               form:
+                    action=#
+                    div:
+                         class=form-input
+                         style:
+                              flex
+                         input:
+                              type=search
+                              pleaceholder=Search...
+                         button:
+                              class=search-button
+                              type=submit
+                              i:
+                                   class=bx bx-search
+                                   
+
